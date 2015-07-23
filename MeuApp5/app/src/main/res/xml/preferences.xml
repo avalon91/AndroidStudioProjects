@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="ativaLista"
+        android:title="Ativar Lista"
+        android:summary="Ativa a lista abaixo"
+        android:defaultValue="true"/>
+
+    <Preference android:title="Abrir página do desenvolvedor"/>
+        <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.google.com.br"/>
+
+    <EditTextPreference
+        android:key="nomePref"
+        android:title="Nome"
+        android:summary="Digite seu nome"
+        android:defaultValue="Fulano"/>
+
+    <SwitchPreference
+        android:persistent="true"
+        android:key="switchPref"
+        android:title="Ligar Algo"
+        android:summary="Use o switcher para ligar algo"/>
+</PreferenceScreen>

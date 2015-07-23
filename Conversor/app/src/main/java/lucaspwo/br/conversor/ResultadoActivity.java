@@ -18,7 +18,7 @@ public class ResultadoActivity extends ActionBarActivity {
 
         double valor = it.getFloatExtra("valor", 0);
         double valor_antigo = valor;
-        String tipo = 
+        String tipo =
     }
 
 }

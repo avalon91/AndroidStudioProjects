@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MeuApp5</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Informações</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>
